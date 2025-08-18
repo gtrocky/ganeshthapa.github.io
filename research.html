@@ -1,98 +1,62 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Research — Ganesh Thapa</title>
-  <meta name="description" content="Personal website of Ganesh Thapa, Economist focused on environmental and resource policy, spatial econometrics, and wildlife disease.">
-  <link rel="stylesheet" href="assets/styles.css">
-</head>
-<body>
-  <header class="hero">
-    <div class="container">
-      <h1>Ganesh Thapa</h1>
-      <p>Economist · Environmental & Resource Policy · Spatial Econometrics</p>
-      
-<nav class="site">
-  <a href="index.html">Home</a>
-  <a href="bio.html">Bio</a>
-  <a href="research.html" class="active">Research</a>
-  <a href="career.html">Career</a>
-  <a href="travel.html">Travel</a>
-  <a href="contact.html">Contact</a>
-</nav>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Research — Ganesh Thapa</title>
+<meta name="description" content="Research focus, publications, datasets, and methods.">
+<link rel="stylesheet" href="assets/styles.css">
+<meta property="og:title" content="Research — Ganesh Thapa">
+<meta property="og:description" content="Research focus, publications, datasets, and methods.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/og-image.jpg">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Ganesh Thapa", "jobTitle": "Economist", "affiliation": {"@type": "Organization", "name": "Wisconsin Department of Natural Resources"}, "email": "thapaganesh@gmail.com", "url": "https://www.ganeshthapa.org", "sameAs": ["https://www.linkedin.com/in/ganesh-thapa-2812bb1a5/", "https://scholar.google.com/citations?user=jB6wtMQAAAAJ&hl=en", "https://www.researchgate.net/profile/Ganesh-Thapa-2", "https://github.com/"]}</script>
 
+</head><body>
+
+<header class="sticky">
+  <div class="container" style="display:flex;align-items:center;justify-content:space-between;gap:1rem">
+    <div class="logo">
+      <img src="assets/profile.jpg" alt="Profile image of Ganesh Thapa">
+      <strong>Ganesh Thapa</strong>
     </div>
-  </header>
+    <nav class="nav"><a href="index.html#about">About</a><a href="index.html#research">Research</a><a href="projects.html">Projects</a><a href="career.html">Experience</a><a href="index.html#publications">Publications</a><a href="contact.html">Contact</a></nav>
+    <button class="theme-toggle" aria-label="Toggle theme">☀️ Light</button>
+  </div>
+</header>
 
-  <main class="container">
-    
-<section>
-  <h2>Research Interests</h2>
-  <ul>
-    <li>Wildlife disease economics (e.g., Chronic Wasting Disease)</li>
-    <li>Water levels, property values, and climate risk</li>
-    <li>Agricultural transformation and policy</li>
-  </ul>
-</section>
+<div class="container">
+  <h1>Research</h1>
+  <p class="meta">Interests: wildlife disease economics, water resources & property values, agricultural transformation.</p>
+  <h2 class="section-title">Methods & Tooling</h2>
+  <div class="skills">
+    <span class="skill">Interrupted Time Series (ITSA)</span>
+    <span class="skill">Staggered Adoption (DiD)</span>
+    <span class="skill">Spatial Econometrics</span>
+    <span class="skill">Hedonic Pricing Models</span>
+    <span class="skill">Python · Stata · ArcGIS Pro</span>
+    <span class="skill">SQL · Pandas · GeoPandas</span>
+  </div>
 
-<section>
-  <h2>Selected Publications & Reports</h2>
-  <table>
-    <thead><tr><th>Title</th><th>Venue / Status</th><th>Year</th><th>Link</th></tr></thead>
-    <tbody>
-      <tr>
-        <td>The Short-Term Impact of Chronic Wasting Disease on Deer Hunting License Sales in Wisconsin</td>
-        <td>Conference presentation</td>
-        <td>2025</td>
-        <td><a href="files/cwd_paper.pdf">PDF</a></td>
-      </tr>
-      <tr>
-        <td>Lake Water Levels & Waterfront Property Values in Wisconsin</td>
-        <td>Working paper</td>
-        <td>2025</td>
-        <td><a href="#">Abstract</a></td>
-      </tr>
-      <tr>
-        <td>Transforming Agriculture in South Asia: The Role of Value Chains (Chapter on Nepal)</td>
-        <td>Routledge (book chapter)</td>
-        <td>2021</td>
-        <td><a href="#">Info</a></td>
-      </tr>
-      <tr>
-        <td>Nepal Child Labour Report (using 2017 LFS data)</td>
-        <td>International Labour Organization</td>
-        <td>2020</td>
-        <td><a href="#">Report</a></td>
-      </tr>
-      <tr>
-        <td>Fertilizer Distribution Directive — Implementation Review</td>
-        <td>CIMMYT</td>
-        <td>2022</td>
-        <td><a href="#">Report</a></td>
-      </tr>
-      <tr>
-        <td>Employment relationships in Nepal’s brick industry</td>
-        <td>International Labour Organization</td>
-        <td>2021</td>
-        <td><a href="#">Report</a></td>
-      </tr>
-      <tr>
-        <td>Road access and household food security in Nepal</td>
-        <td>World Food Programme</td>
-        <td>2017</td>
-        <td><a href="#">Report</a></td>
-      </tr>
-    </tbody>
-  </table>
-  <p class="meta">Tip: put your PDFs in a <code>files/</code> folder (e.g., <code>files/cv.pdf</code>, <code>files/cwd_paper.pdf</code>) and update the links above.</p>
-</section>
+  <h2 class="section-title">Selected Works</h2>
+  <div class="grid cards">
+    <div class="card">
+      <h3>CWD & License Sales</h3>
+      <p class="meta">Robust interrupted time series; short-term market response to disease detection.</p>
+      <p><a href="files/cwd_paper.pdf">PDF</a></p>
+    </div>
+    <div class="card">
+      <h3>Lake Levels & Waterfront Values</h3>
+      <p class="meta">Spatial hedonic model linking USGS water levels to property prices.</p>
+      <p><a href="#">Abstract</a></p>
+    </div>
+    <div class="card">
+      <h3>Policy Reports (Nepal & South Asia)</h3>
+      <p class="meta">CIMMYT, ILO, WFP — fertilizer policy, labor, food security.</p>
+      <p><a href="#">Summary</a></p>
+    </div>
+  </div>
+</div>
 
-  </main>
-
-  <footer>
-    <small>© <span id="year"></span> Ganesh Thapa</small>
-  </footer>
-  <script src="assets/script.js"></script>
-</body>
-</html>
+<footer class="container small">© <span id="year"></span> Ganesh Thapa</footer>
+<script src="assets/script.js"></script>
+</body></html>

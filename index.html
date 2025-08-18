@@ -1,57 +1,96 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Home — Ganesh Thapa</title>
-  <meta name="description" content="Personal website of Ganesh Thapa, Economist focused on environmental and resource policy, spatial econometrics, and wildlife disease.">
-  <link rel="stylesheet" href="assets/styles.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ganesh Thapa — Economist & Researcher</title>
+<meta name="description" content="Research economist focused on wildlife disease economics, water resources and property values, and agricultural transformation.">
+<link rel="stylesheet" href="assets/styles.css">
+<meta property="og:title" content="Ganesh Thapa — Economist & Researcher">
+<meta property="og:description" content="Research economist focused on wildlife disease economics, water resources and property values, and agricultural transformation.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/og-image.jpg">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Ganesh Thapa", "jobTitle": "Economist", "affiliation": {"@type": "Organization", "name": "Wisconsin Department of Natural Resources"}, "email": "thapaganesh@gmail.com", "url": "https://www.ganeshthapa.org", "sameAs": ["https://www.linkedin.com/in/ganesh-thapa-2812bb1a5/", "https://scholar.google.com/citations?user=jB6wtMQAAAAJ&hl=en", "https://www.researchgate.net/profile/Ganesh-Thapa-2", "https://github.com/"]}</script>
+
 </head>
 <body>
-  <header class="hero">
+
+<header class="sticky">
+  <div class="container" style="display:flex;align-items:center;justify-content:space-between;gap:1rem">
+    <div class="logo">
+      <img src="assets/profile.jpg" alt="Profile image of Ganesh Thapa">
+      <strong>Ganesh Thapa</strong>
+    </div>
+    <nav class="nav"><a href="index.html#about" class="active">About</a><a href="index.html#research">Research</a><a href="projects.html">Projects</a><a href="career.html">Experience</a><a href="index.html#publications">Publications</a><a href="contact.html">Contact</a></nav>
+    <button class="theme-toggle" aria-label="Toggle theme">☀️ Light</button>
+  </div>
+</header>
+
+<section class="hero" id="about">
+  <div class="hero-inner">
     <div class="container">
       <h1>Ganesh Thapa</h1>
-      <p>Economist · Environmental & Resource Policy · Spatial Econometrics</p>
-      
-<nav class="site">
-  <a href="index.html" class="active">Home</a>
-  <a href="bio.html">Bio</a>
-  <a href="research.html">Research</a>
-  <a href="career.html">Career</a>
-  <a href="travel.html">Travel</a>
-  <a href="contact.html">Contact</a>
-</nav>
-
-    </div>
-  </header>
-
-  <main class="container">
-    
-<section>
-  <h2>Welcome</h2>
-  <p>Thanks for visiting my site. I'm Ganesh Thapa, an economist working at the Wisconsin Department of Natural Resources. My work spans wildlife disease economics (especially Chronic Wasting Disease), water resources and property values, and agricultural transformation.</p>
-  <div class="grid cards">
-    <div class="card">
-      <h3>Quick Links</h3>
-      <p class="meta">Jump right in:</p>
-      <p><a href="bio.html">Bio</a> · <a href="research.html">Research</a> · <a href="career.html">Career</a> · <a href="travel.html">Travel</a> · <a href="contact.html">Contact</a></p>
-    </div>
-    <div class="card">
-      <h3>Recent Highlights</h3>
-      <ul>
-        <li>Presented: <em>The Short-Term Impact of Chronic Wasting Disease on Deer Hunting License Sales in Wisconsin</em> (2025).</li>
-        <li>Working paper: Lake water levels & waterfront property values in Wisconsin (2025).</li>
-        <li>Family trip to Door County, Wisconsin.</li>
-      </ul>
+      <p class="meta">Economist · Environmental & Resource Policy · Spatial Econometrics</p>
+      <div>
+        <span class="tag">Environmental & Resource Economics</span>
+        <span class="tag">Spatial Econometrics</span>
+        <span class="tag">Wildlife Disease (CWD)</span>
+        <span class="tag">Water Resources</span>
+      </div>
+      <div class="cta">
+        <a class="btn" href="contact.html">Contact me</a>
+        <a class="btn secondary" href="files/cv.pdf">Download CV</a>
+        <a class="btn secondary" href="research.html">Detailed Research</a>
+      </div>
     </div>
   </div>
 </section>
 
-  </main>
+<div class="container">
+  <h2 class="section-title">Snapshot</h2>
+  <div class="kpis">
+    <div class="kpi"><div class="v">10+ yrs</div><div class="meta">Applied research</div></div>
+    <div class="kpi"><div class="v">8+ reports</div><div class="meta">ILO • WFP • CIMMYT</div></div>
+    <div class="kpi"><div class="v">Ph.D.</div><div class="meta">Purdue (Ag Econ)</div></div>
+    <div class="kpi"><div class="v">WI DNR</div><div class="meta">Economist</div></div>
+  </div>
 
-  <footer>
-    <small>© <span id="year"></span> Ganesh Thapa</small>
-  </footer>
-  <script src="assets/script.js"></script>
+  <h2 class="section-title" id="research">Research Focus</h2>
+  <div class="grid cards">
+    <div class="card">
+      <h3>Wildlife Disease Economics</h3>
+      <p class="meta">CWD impacts on deer license sales; spatial spillovers; policy responses.</p>
+    </div>
+    <div class="card">
+      <h3>Water & Property Values</h3>
+      <p class="meta">Linking USGS water levels and hedonic pricing of waterfront properties.</p>
+    </div>
+    <div class="card">
+      <h3>Agricultural Transformation</h3>
+      <p class="meta">Value chains, fertilizer policies, labor and nutrition in South Asia.</p>
+    </div>
+  </div>
+
+  <h2 class="section-title" id="publications">Selected Publications</h2>
+  <div class="grid cards">
+    <div class="card">
+      <h3>CWD & License Sales (Wisconsin)</h3>
+      <p class="meta">Conference paper, 2025</p>
+      <p><a href="files/cwd_paper.pdf">PDF</a></p>
+    </div>
+    <div class="card">
+      <h3>Lake Levels & Waterfront Values</h3>
+      <p class="meta">Working paper, 2025</p>
+      <p><a href="research.html">Details</a></p>
+    </div>
+    <div class="card">
+      <h3>Transforming Agriculture in South Asia</h3>
+      <p class="meta">Routledge book chapter, 2021</p>
+    </div>
+  </div>
+</div>
+
+<footer class="container small">© <span id="year"></span> Ganesh Thapa</footer>
+<script src="assets/script.js"></script>
 </body>
 </html>
