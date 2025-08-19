@@ -1,1 +1,0 @@
-# Personal Site — Ganesh Thapa 
